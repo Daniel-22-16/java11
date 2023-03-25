@@ -9,6 +9,13 @@ public class JavaApplication4 {
         int primerNumero = scanner.nextInt();
         System.out.print("Ingrese el segundo número del rango: ");
         int segundoNumero = scanner.nextInt();
+        
+        System.out.println("Los números impares en el rango de " + primerNumero + " a " + segundoNumero + " son:");
+        for (int i = primerNumero; i <= segundoNumero; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
    }    
         
    }
